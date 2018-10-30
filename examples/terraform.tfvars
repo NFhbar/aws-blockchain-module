@@ -1,0 +1,14 @@
+region = "us-west-1"
+instance_count = "2"
+name = "example"
+environment = "testnet"
+ami = "ami-059e7901352ebaef8"
+instance_type = "t2.medium"
+blockchain = "bitcoin"
+blockchain_port = "18332"
+testnet = 1
+size = 500
+ssh = true
+ssh_key = "Bitcoin"
+user = "user"
+pass = "pass"

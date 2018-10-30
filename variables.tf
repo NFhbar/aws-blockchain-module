@@ -1,0 +1,15 @@
+variable "instance_count" {}
+variable "name" {}
+variable "vpc_id" {}
+variable "cidr_blocks" {}
+variable "ami" {}
+variable "instance_type" {}
+variable "size" {}
+variable "subnet" {}
+variable "blockchain" {}
+variable "blockchain_port" {}
+variable "testnet" {}
+variable "ssh" {}
+variable "ssh_key" {}
+variable "user" {}
+variable "pass" {}

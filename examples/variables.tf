@@ -1,0 +1,14 @@
+variable "region" {}
+variable "instance_count" {}
+variable "name" {}
+variable "environment" {}
+variable "ami" {}
+variable "instance_type" {}
+variable "blockchain" {}
+variable "blockchain_port" {}
+variable "testnet" {}
+variable "size" {}
+variable "ssh" {}
+variable "ssh_key" {}
+variable "user" {}
+variable "pass" {}
