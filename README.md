@@ -10,7 +10,7 @@ This module includes provisions an EC2 with a blockchain server installed, inclu
 ## Usage
 ```hcl
 module "bitcoin_node" {
-  source = "git::https://example.com/vpc.git"
+  source = "git::https://github.com/NFhbar/aws-blockchain-module"
 
   instance_count  = "${var.instance_count}"
   name            = "${var.name}-${var.environment}"
@@ -31,4 +31,7 @@ module "bitcoin_node" {
 ```
 
 ## Blockchain Specific Template File
-This module installs a specific blockchain using the templates files in `./blockchain/templates`. Currently only `bitcoin` is supported.
+This module installs a specific blockchain using the templates files in [templates](./templates). Currently only `bitcoin` is supported.
+
+## Example
+See an example usage in [examples](./examples).
