@@ -1,5 +1,7 @@
 # Blockchain Module
 
+[![CircleCI](https://circleci.com/gh/NFhbar/aws-blockchain-module.svg?style=svg)](https://circleci.com/gh/NFhbar/aws-blockchain-module)
+
 This module includes provisions an EC2 with a blockchain server installed, including the following:
 
 - [Terraform Security Group Module](https://github.com/terraform-aws-modules/terraform-aws-security-group)
