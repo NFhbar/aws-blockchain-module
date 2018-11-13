@@ -38,7 +38,7 @@ module "vpc" {
 
 # Module BTC
 module "bitcoin_node" {
-  source = "../"
+  source = ".."
 
   instance_count  = "${var.instance_count}"
   name            = "${var.name}-${var.environment}"

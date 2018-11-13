@@ -7,6 +7,9 @@ This module includes provisions an EC2 with a blockchain server installed, inclu
 - [AWS EBS Volume](https://www.terraform.io/docs/providers/aws/r/ebs_volume.html)
 - [Template File](https://www.terraform.io/docs/providers/template/d/file.html)
 
+## Requirements
+- [Terraform v0.11.10](https://www.terraform.io/downloads.html)
+
 ## Usage
 ```hcl
 module "bitcoin_node" {
@@ -35,3 +38,13 @@ This module installs a specific blockchain using the templates files in [templat
 
 ## Example
 See an example usage in [examples](./examples).
+
+## Tests
+Tests are run using [Terratest](https://github.com/gruntwork-io/terratest).
+
+To run the test suite:
+```
+$ dep init
+$ dep ensure -vendor-only
+$ cd test/ && go test -v
+```
