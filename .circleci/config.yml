@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: nfhbar/docker-terratest
-    working_directory: /go/src/github.com/user/aws-blockchain-module
+    # working_directory: /go/src/github.com/user/aws-blockchain-module
     steps:
       - checkout
       - restore_cache:
