@@ -10,4 +10,4 @@ jobs:
       - run: curl -L -s https://releases.hashicorp.com/terraform/0.11.7/terraform_0.11.7_linux_amd64.zip -o /go/bin/terraform.zip && unzip /go/bin/terraform.zip -d /go/bin && chmod +x /go/bin/terraform
       - run: dep init
       - run: dep ensure -vendor-only
-      - run: cd test/ && go test -v
+      - run: cd tests/ && go test -v
